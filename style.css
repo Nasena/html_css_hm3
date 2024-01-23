@@ -1,10 +1,13 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
 body {
+    display: flex;
     background: #FFF;
+    gap: 30px;
+    flex-direction: column;
 }
 
 a {
@@ -20,39 +23,35 @@ a {
 }
 
 .menu {
-    display: inline-flex;
-    width: 100%;
-    height: 40px;
-    flex-shrink: 0;
-    justify-content: center;
+    display: flex;
+    align-content: center;
     align-items: center;
-    gap: 30px;
-    margin-top: 26px;
-    margin-right: 200px;
-    /*margin-left: 337px;*/
+    gap: 20px;
 }
 
-.arrow_logo_header {
-    /*display: inline-flex;
-    align-items: flex-start;
-    justify-content: center;
-    align-items: center;*/
-    margin-top: 26px;
-    margin-left: 375px;
-
-}
 
 .header {
-    display: inline-flex;
-    width: 100%;
-    height: 114px;
-    flex-shrink: 0;
-    justify-content: center;
+    display: flex;
     align-items: center;
-    margin-top: 14px;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
+.top_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
 
+.top_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 522px;
+}
 
 .text_h1 {
     color: #000;
@@ -60,6 +59,7 @@ a {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    width: 520px;
 }
 
 p {
@@ -68,6 +68,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 460px;
 }
 
 button {
@@ -86,7 +87,6 @@ button {
 
 .top_button {
     display: inline-flex;
-    padding: 15px 30px;
     align-items: flex-start;
     gap: 20px;
     justify-content: center;
@@ -97,7 +97,7 @@ button {
     color: #AAA;
     font-size: 15px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
 }
 
