@@ -126,8 +126,6 @@ button {
 }
 
 .profit_card {
-    border: 1px solid #000;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -193,7 +191,8 @@ button {
 }
 
 .point_card {
-    border: 1px solid #000;
+    background: #FFF;
+
 
     display: flex;
     justify-content: center;
